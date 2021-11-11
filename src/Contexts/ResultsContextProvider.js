@@ -15,7 +15,7 @@ const baseUrl = 'https://google-search3.p.rapidapi.com/api/v1';
         method: 'GET',
         headers: {
             'x-rapidapi-host': 'google-search3.p.rapidapi.com',
-            'x-rapidapi-key': process.env.REACT_APP_API_KEY,
+            'x-rapidapi-key':  process.env.REACT_APP_API_KEY,
         },
     });
 
